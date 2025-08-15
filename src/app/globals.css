@@ -15,26 +15,3 @@
   }
   .glass { border-radius: 1.5rem; border: 1px solid rgba(255,255,255,.1); background: rgba(255,255,255,.05); backdrop-filter: blur(8px); }
 }
-
-/* Скрываем любые Vercel элементы */
-[data-vercel-banner],
-[data-vercel-banner] *,
-.vercel-banner,
-.vercel-banner *,
-[class*="vercel"],
-[class*="Vercel"],
-[data-testid*="vercel"],
-[data-testid*="Vercel"] {
-  display: none !important;
-  visibility: hidden !important;
-  opacity: 0 !important;
-  pointer-events: none !important;
-}
-
-/* Скрываем footer с "Powered by" */
-footer:has(a[href*="vercel.com"]),
-footer:has(a[href*="nextjs.org"]),
-footer:has(span:contains("Powered by")),
-footer:has(span:contains("powered by")) {
-  display: none !important;
-}

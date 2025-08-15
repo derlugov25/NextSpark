@@ -7,10 +7,10 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       { url: '/favicon.svg', type: 'image/svg+xml' },
-      { url: '/favicon.ico', type: 'image/x-icon' },
+      { url: '/icon.ico', type: 'image/x-icon' },
       { url: '/favicon-32x32.png', type: 'image/png', sizes: '32x32' }
     ],
-    shortcut: '/favicon.ico',
+    shortcut: '/icon.ico',
     apple: [
       { url: '/favicon.svg', type: 'image/svg+xml' },
       { url: '/favicon-32x32.png', type: 'image/png', sizes: '32x32' }
@@ -30,7 +30,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en">
       <head>
         <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-        <link rel="alternate icon" href="/favicon.ico" />
+        <link rel="alternate icon" href="/icon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
         <link rel="apple-touch-icon" href="/favicon.svg" />
         <meta name="theme-color" content="#A78BFA" />

@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "NextSpark Ventures - Empowering AI Founders",
   description: "Seed / Pre-seed capital • Mentorship • Global network for AI founders",
   icons: {
-    icon: '/favicon.svg',
+    icon: '/favicon.svg?v=2',
     shortcut: '/favicon.ico'
   }
 };

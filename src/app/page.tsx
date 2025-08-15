@@ -9,9 +9,9 @@ const BRAND = {
   name: "NextSpark Ventures",
   thesis:
     "Empowering AI Founders to Transform Emerging Markets",
-  formUrl: "https://forms.gle/your-form-id",
+  formUrl: "https://docs.google.com/forms/d/e/1FAIpQLScdKYAWVVYqXMJpopcWuiBReobFoHILWRHomsLLWMh8lK5-zA/viewform",
   email: "contact@nextspark.vc",
-  linkedin: "https://linkedin.com/company/nextsparkvc",
+  linkedin: "https://docs.google.com/forms/d/e/1FAIpQLSfCO3Pu9makDEDE1KB3oU0lTffTzTHQx7dKZ2K1rNwpPVblVA/viewform",
 };
 
 export default function Page() {

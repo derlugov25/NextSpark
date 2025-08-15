@@ -1,0 +1,17 @@
+/* Tailwind v4 */
+@import "tailwindcss";
+
+@layer base {
+  :root { color-scheme: dark; }
+  html, body { min-height: 100vh; background: #060817; color: #fff; }
+  ::selection { background: rgba(255,255,255,.2); color: #fff; }
+  img, svg, canvas, video { display: block; max-width: 100%; height: auto; }
+}
+
+@layer components {
+  .text-gradient {
+    background: linear-gradient(90deg,#A78BFA 0%,#818CF8 45%,#38BDF8 100%);
+    -webkit-background-clip: text; background-clip: text; color: transparent;
+  }
+  .glass { border-radius: 1.5rem; border: 1px solid rgba(255,255,255,.1); background: rgba(255,255,255,.05); backdrop-filter: blur(8px); }
+}

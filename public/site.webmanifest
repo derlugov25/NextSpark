@@ -1,0 +1,17 @@
+{
+  "name": "NextSpark Ventures",
+  "short_name": "NextSpark",
+  "description": "Seed / Pre-seed capital • Mentorship • Global network for AI founders",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "theme_color": "#A78BFA",
+  "background_color": "#060817",
+  "display": "standalone",
+  "start_url": "/"
+} 

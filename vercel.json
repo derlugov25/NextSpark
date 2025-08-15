@@ -1,0 +1,18 @@
+{
+  "functions": {
+    "app/**/*.tsx": {
+      "includeFiles": "app/**"
+    }
+  },
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Frame-Options",
+          "value": "DENY"
+        }
+      ]
+    }
+  ]
+} 

@@ -9,6 +9,8 @@ const nextConfig: NextConfig = {
 		// Не останавливать сборку из-за TypeScript-ошибок (Vercel)
 		ignoreBuildErrors: true,
 	},
+	// Отключаем Vercel branding
+	poweredByHeader: false,
 };
 
 export default nextConfig;

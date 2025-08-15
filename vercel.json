@@ -14,5 +14,8 @@
         }
       ]
     }
-  ]
+  ],
+  "branding": {
+    "enabled": false
+  }
 } 

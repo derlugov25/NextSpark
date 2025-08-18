@@ -88,6 +88,11 @@ function formatDate(dateString: string) {
 }
 
 export default function ResearchesPage() {
+  // Sort researches by date in descending order (newest first)
+  const sortedResearches = [...RESEARCHES].sort((a, b) => {
+    return new Date(b.date).getTime() - new Date(a.date).getTime();
+  });
+
   return (
     <div className="relative min-h-screen bg-[#060817] text-white antialiased">
       {/* Background */}
@@ -116,9 +121,12 @@ export default function ResearchesPage() {
               AI Research & 
               <span className="text-gradient"> Market Intelligence</span>
             </h1>
-            <p className="text-lg md:text-xl text-white/80 max-w-3xl mx-auto">
+            <p className="text-lg md:text-xl text-white/80 max-w-3xl mx-auto mb-4">
               Curated collection of cutting-edge AI research from leading venture capital firms and industry analysts. 
               Access reports from Bessemer, A16z, Sequoia, Coatue, and other top-tier sources covering AI investments, market trends, and strategic insights for 2025.
+            </p>
+            <p className="text-sm text-white/60">
+              Latest research first • Updated regularly
             </p>
           </div>
         </section>
@@ -127,7 +135,7 @@ export default function ResearchesPage() {
         <section className="py-10">
           <div className="mx-auto max-w-5xl px-4">
             <div className="space-y-8">
-              {RESEARCHES.map((research) => (
+              {sortedResearches.map((research) => (
                 <article 
                   key={research.id}
                   className="glass p-6 md:p-8 hover:bg-white/10 transition-all duration-300"

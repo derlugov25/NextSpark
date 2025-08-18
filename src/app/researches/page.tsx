@@ -106,8 +106,7 @@ export default function ResearchesPage() {
             <NextSparkLogo size={65} />
           </a>
           <nav className="text-xs md:text-sm opacity-80">
-            <a href="/" className="hover:opacity-100 mr-6">Home</a>
-            <a href="/apply" className="hover:opacity-100 text-white">Apply</a>
+            <a href="/" className="hover:opacity-100">Home</a>
           </nav>
         </div>
       </header>

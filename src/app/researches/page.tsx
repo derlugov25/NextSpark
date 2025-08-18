@@ -107,7 +107,7 @@ export default function ResearchesPage() {
           </a>
           <nav className="text-xs md:text-sm opacity-80">
             <a href="/" className="hover:opacity-100 mr-6">Home</a>
-            <a href="/researches" className="hover:opacity-100 text-white">Researches</a>
+            <a href="/apply" className="hover:opacity-100 text-white">Apply</a>
           </nav>
         </div>
       </header>

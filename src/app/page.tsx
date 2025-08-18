@@ -26,6 +26,7 @@ export default function Page() {
         <div className="mx-auto max-w-6xl px-4 py-5 flex items-center justify-between">
           <NextSparkLogo size={65} />
           <nav className="text-xs md:text-sm opacity-80">
+            <a href="/researches" className="hover:opacity-100 mr-6">Researches</a>
             <a href="#apply" className="hover:opacity-100">Apply</a>
           </nav>
         </div>

@@ -14,6 +14,14 @@ const BRAND = {
 // Research data sourced from leading VC firms and industry reports
 const RESEARCHES = [
   {
+    id: 0,
+    title: "Alpha for AI VCs: Why CIS-Rooted Founders Are More Likely to Win?",
+    summary: "Alpha isn't a story—it's a system. CIS-rooted founders scale faster on the back of math-first training, OSS credibility, and tax-efficient hubs. We map the metrics, the hotspots, and the telltale signals (GitHub, ICPC, grant wins), then outline how to structure, hire, and price risk to consistently beat the market.",
+    date: "2025-08-17",
+    pdfUrl: "/CIS AI VS Alpha.pdf",
+    tags: ["Alpha", "CIS", "Founders", "AI VCs", "Investment Strategy"]
+  },
+  {
     id: 1,
     title: "The State of AI 2025: Cloud AI Universe and Early Galaxies Formation",
     summary: "Bessemer Venture Partners' comprehensive analysis of AI industry evolution. Three years after the AI Big Bang, early galaxies are forming with new benchmarks for AI startups. Features analysis of AI Supernovas vs Shooting Stars, Q2T3 growth patterns, and roadmaps across Infrastructure, Developer Tools, Horizontal AI, and Vertical AI sectors.",

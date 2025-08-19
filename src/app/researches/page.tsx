@@ -17,7 +17,7 @@ const RESEARCHES = [
     id: 0,
     title: "Alpha for AI VCs: Why CIS-Rooted Founders Are More Likely to Win?",
     summary: "Alpha isn't a story—it's a system. CIS-rooted founders scale faster on the back of math-first training, OSS credibility, and tax-efficient hubs. We map the metrics, the hotspots, and the telltale signals (GitHub, ICPC, grant wins), then outline how to structure, hire, and price risk to consistently beat the market.",
-    date: "2025-08-17",
+    date: "2025-08-19",
     pdfUrl: "/CIS AI VS Alpha.pdf",
     tags: ["Alpha", "CIS", "Founders", "AI VCs", "Investment Strategy"]
   },

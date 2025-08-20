@@ -7,7 +7,6 @@ import { Download } from "lucide-react";
 
 const BRAND = {
   name: "NextSpark Ventures",
-  email: "contact@nextspark.vc",
   linkedin: "https://docs.google.com/forms/d/e/1FAIpQLSfCO3Pu9makDEDE1KB3oU0lTffTzTHQx7dKZ2K1rNwpPVblVA/viewform",
 };
 
@@ -207,9 +206,6 @@ export default function ResearchesPage() {
             securities.
           </div>
           <div className="flex items-center gap-6">
-            <a href={`mailto:${BRAND.email}`} className="hover:text-white">
-              {BRAND.email}
-            </a>
             <a
               href={BRAND.linkedin}
               target="_blank"
